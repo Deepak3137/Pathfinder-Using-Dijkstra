@@ -81,6 +81,7 @@ export default class PathfindingVisualizer extends Component {
         <button onClick={() => this.visualizeDijkstra()} className="button">
           Visualize Dijkstra's Algorithm
         </button>
+        <div className='block'>**You can mark the block cells in the path**</div>
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
